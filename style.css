@@ -17,7 +17,7 @@
     padding: 31px;
     border-radius: 35px;
     background-color: #1b222c;
-    margin: 15% 0%;
+    margin: 15% 1%;
   }
 
  
@@ -75,7 +75,7 @@ input[type=submit]:hover{
     background-color: #1b222c;
     text-align: center;
     align-content: center;
-    margin: 15% 0%;
+    margin: 15% 1%;
   }
   footer{
     display: flex;
@@ -98,6 +98,5 @@ p{
 }
 h1{
   color: white;
-
 }
 
