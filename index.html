@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Interactive rating component</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js"></script>
+
+</head>
+
+<body>
+
+  <main>
+    <div class="continer" id="box">
+
+
+      <div class="first"><img src="/interactive-rating-component-main/images/icon-star.svg" alt=""></div>
+      <div>
+        <h2> How did we do?</h2>
+      </div>
+      <div>
+        <p> Please let us know how we did with your support request. All feedback is appreciated
+          to help us improve our offering!</p>
+      </div>
+      <div class="rate">
+        <div><input type="button" value="1" id="call" onclick="callchange()"></div>
+        <div><input type="button" value="2" id="call1" onclick="callchange1()"></div>
+        <div><input type="button" value="3" id="call2" onclick="callchange2()"></div>
+        <div><input type="button" value="4" id="call3" onclick="callchange3()"></div>
+        <div><input type="button" value="5" id="call4" onclick="callchange4()"></div>
+      </div>
+      <div><input type="submit" value="submit" onclick="submit()"></div>
+    </div>
+
+
+  </main>
+<footer>
+  <div class="thank" id="box2">
+    <div><img src="/interactive-rating-component-main/images/illustration-thank-you.svg" alt=""></div>
+    <div class="rates">
+      <p>You selected <span id="rating-value"></span> out of 5</p>
+    </div>
+    <div>
+      <h1> Thank you!</h1>
+    </div>
+    <div>
+      <p>We appreciate you taking the time to give a rating. If you ever need more support,
+        don’t hesitate to get in touch!</p>
+    </div>
+  </div>
+  
+</footer>
+
+</body>
+
+</html>
